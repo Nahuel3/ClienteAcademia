@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+    .why-choose-us {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+     flex-direction: column;
+     background-color: rgba(128, 128, 128, 0.083);
+  
+      h2 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+      }
+
+      .underline{
+        display: block; /* Asegura que el span ocupe todo el ancho */
+        width: 10%; /* Ajusta el ancho según lo que necesites */
+        height: 4px; /* El grosor de la línea */
+        background-color: #0094EA; /* Color de la línea */
+        margin: 5px auto; /* Centra la línea y añade espacio arriba y abajo */
+      }
+  
+      .main-rectangles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        flex-wrap: wrap;
+        
+  
+        .rectangle {
+          background-color: #ffffff;
+          border: solid 1px grey;
+          color: #000000;
+          padding: 20px;
+          border-radius: 20px;
+          width: 20%;
+          min-width: 250px;  
+          margin: 10px;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+  
+          h3 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            text-align: center; /* Centra el texto horizontalmente */
+          }
+
+          .textoRedaccion{
+            text-decoration: none;
+            color: black;
+            padding: 0px;
+            margin: 0px;
+            font-size: 20px;
+            text-align: center;
+          }
+
+          .textoRedaccion:hover {
+            color: blue;
+          }
+  
+          p {
+            font-size: 20px;
+            max-width: 400px;
+            text-align: left; /* Alinea el texto a la izquierda */
+            margin: 10px 0; /* Ajusta los márgenes superior e inferior */
+            padding: 0 10px; /* Opcional: añade padding para más espacio interno */
+            flex-grow: 1; /* Permite que el párrafo ocupe el espacio disponible */
+          }
+
+         
+  
+          .btn button{
+            font-weight: 700;
+            color: white;
+            padding: 9px ;
+            width: 250px;
+            background-color:#0094ea;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 50px;
+        }
+  
+        }
+      }
+    }
+  
+
+  @media (max-width: 500px){
+    .services-container{
+      .services-icons  {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  
+  
+  }
