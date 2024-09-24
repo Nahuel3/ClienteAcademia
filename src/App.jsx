@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar/navbar';
 import Publicidad from './Components/Navbar/Publicidad/publicidad';
 import Form from './Components/Form/form';
 import Servicios  from './Components/Servicios/servicios';
+import Nosotros from "./Components/Sobre nosotros/nosotros"
+import ProyectoUniversitario from "./Components/ProyectoUniversitario/universitario"
 
 
 export const App = () => {
@@ -11,18 +13,20 @@ export const App = () => {
       <div>
        <BrowserRouter>
        <Navbar></Navbar> 
+       <Publicidad />
         <Routes>
 
         <Route 
               path='/' 
               element={
-                <>
-                  <Publicidad />
+                <>                
                   <Form />
                   <Servicios></Servicios>
+                  <ProyectoUniversitario></ProyectoUniversitario>
                 </>
               }
             />
+            <Route path="/nosotros" element={<Nosotros />} />
 
             <Route path='/' element={<Form />}></Route>
             

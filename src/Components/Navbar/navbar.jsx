@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Importa Link
 import './navbar.scss';
 
 const Navbar = () => {
@@ -21,34 +22,21 @@ const Navbar = () => {
       </div>
 
       <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
-        <a 
-          href="#" 
-          className={selectedLink === 'Home' ? 'selected' : ''} 
-          onClick={() => handleLinkClick('Home')}
-        >
-          Home
-        </a>
-        <a 
-          href="#" 
-          className={selectedLink === 'Quienes somos' ? 'selected' : ''} 
-          onClick={() => handleLinkClick('Quienes somos')}
-        >
-          Quienes somos
-        </a>
-        <a 
-          href="#" 
-          className={selectedLink === 'Faq' ? 'selected' : ''} 
-          onClick={() => handleLinkClick('Faq')}
-        >
-          Faq
-        </a>
-        <a 
-          href="#" 
-          className={selectedLink === 'Servicios' ? 'selected' : ''} 
-          onClick={() => handleLinkClick('Servicios')}
-        >
-          Servicios
-        </a>
+        <Link to="/" 
+              className={selectedLink === 'Home' ? 'selected' : ''} 
+              onClick={() => handleLinkClick('Home')}>Home</Link>
+
+        <Link to="/nosotros" 
+              className={selectedLink === 'nosotros' ? 'selected' : ''} 
+              onClick={() => handleLinkClick('nosotros')}>Quienes somos</Link>
+        
+        <Link to="/faq" 
+              className={selectedLink === 'faq' ? 'selected' : ''} 
+              onClick={() => handleLinkClick('faq')}>Faq</Link>
+
+        <Link to="/servicios" 
+              className={selectedLink === 'servicios' ? 'selected' : ''} 
+              onClick={() => handleLinkClick('servicios')}>Servicios</Link>
       </nav>
 
       <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>

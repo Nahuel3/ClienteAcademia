@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.quienes-somos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.083);
+    width: 100%; /* Asegúrate de que ocupe el 100% del ancho */
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .underline {
+        display: block;
+        width: 30%;
+        height: 4px;
+        background-color: #0094EA;
+        margin: 5px auto;
+    }
+
+    .main-rectangles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch; /* Asegúrate de que los rectángulos ocupen la misma altura */
+        margin: 20px; /* Ajusta el margen aquí */
+        flex-wrap: wrap;
+
+        .rectangle {
+            background-color: #ffffff;
+            border: solid 1px grey;
+            color: #000000;
+            padding: 20px;
+            border-radius: 20px;
+            width: 100%; /* Cambia el ancho a 100% */
+            max-width: 400px; /* O un valor que funcione para tu diseño */
+            margin: 10px; /* Ajusta el margen */
+            height: auto; /* Permite que la altura se ajuste al contenido */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+                font-size: 32px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            .textoRedaccion {
+                text-decoration: none;
+                color: black;
+                padding: 0px;
+                margin: 0px;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .textoRedaccion:hover {
+                color: blue;
+            }
+
+            p {
+                font-size: 20px;
+                max-width: 100%; /* Asegúrate de que el párrafo no sobresalga */
+                text-align: left;
+                margin: 10px 0;
+                padding: 0 10px; /* Opcional: añade padding para más espacio interno */
+                flex-grow: 1;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .main-rectangles {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos en pantallas pequeñas */
+    }
+}

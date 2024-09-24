@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Organiza el contenido en columna */
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center; /* Centra el texto */
+    margin: 20px; /* Margen alrededor del contenedor */
+}
+
+.images-container {
+    display: flex; /* Usa flexbox para las imágenes */
+    justify-content: center; /* Centra las imágenes en la fila */
+    align-items: flex-start; /* Alinea las imágenes en la parte superior */
+    margin-top: 20px; /* Espacio entre el texto y las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se muevan a la siguiente línea en pantallas pequeñas */
+
+    .services-image {
+        width: 300px; /* Ajusta el ancho como necesites */
+        margin-left: 20px;
+    }
+
+    .secondary-image {
+        width: 800px; /* Ajusta el ancho como necesites */
+        margin-bottom: 20px
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 850px) {
+    .images-container {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center; /* Centra las imágenes en la columna */
+    }
+
+    .services-image,
+    .secondary-image {
+        width: 100%; /* Asegúrate de que ocupen el 100% del ancho */
+        max-width: 400px; /* Ajusta el tamaño máximo si es necesario */
+        margin-bottom: 20px; /* Espacio entre las imágenes */
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 430px) {
+    .images-container {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center; /* Centra las imágenes en la columna */
+    }
+
+    .services-image,
+    .secondary-image {
+        width: 100%; /* Asegúrate de que ocupen el 100% del ancho */
+        max-width: 200px; /* Ajusta el tamaño máximo si es necesario */
+
+        margin-bottom: 20px !important;
+    }
+}
