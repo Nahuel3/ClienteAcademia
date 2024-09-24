@@ -186,7 +186,7 @@ const FormularioComponent = () => {
               type="text"
               id="whatsapp"
               name="whatsapp"
-              placeholder='011 15-2345-67'
+              placeholder='+54 9 11 2345-6720'
               minLength={9}
               value={formData.whatsapp}
               onChange={handleWhatsAppChange}
