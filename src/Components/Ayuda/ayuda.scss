@@ -16,14 +16,14 @@
       
   
       h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         color: #000000;
         margin-top: 25px;
         text-align: center;
       }
   
       p {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         color: #333;
         line-height: 1.6;
         margin-top: 10px;
@@ -33,6 +33,7 @@
       a{
         text-decoration: none;
         margin-top: 5px;
+     
       }
 
       .contenedor-linkWsp {
@@ -49,14 +50,14 @@
           transition: color 0.3s ease;
       
           svg {
-            width: 30px; /* Tamaño del ícono */
-            height: 30px;
+            width: 50px; /* Tamaño del ícono */
+            height: 50px;
             margin-right: 10px; /* Espacio entre el ícono y el texto */
             color: #25D366; /* Color verde de WhatsApp */
           }
       
           p {
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             margin: 0;
           }
       
