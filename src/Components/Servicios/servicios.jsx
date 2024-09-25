@@ -13,7 +13,7 @@ const servicios = () => {
             Expertos en cada materia te ayudarán a organizar tus ideas y a presentar una investigación adaptada a lo que necesites.
             </p>
             <div className='logo-rectangle'>
-              <a href="#" className='btn'><button>Más información</button></a>
+              <a href="https://wa.me/5491135206645?text=¡Hola! Quisiera hacerte una pregunta." className='btn'><button>Más información</button></a>
             </div>
           </div>
 
