@@ -6,6 +6,7 @@ import Form from './Components/Form/form';
 import Servicios  from './Components/Servicios/servicios';
 import Nosotros from "./Components/Sobre nosotros/nosotros"
 import ProyectoUniversitario from "./Components/ProyectoUniversitario/universitario"
+import AyudaSection from "./Components/Ayuda/ayudasection"
 
 
 export const App = () => {
@@ -23,6 +24,7 @@ export const App = () => {
                   <Form />
                   <Servicios></Servicios>
                   <ProyectoUniversitario></ProyectoUniversitario>
+                  <AyudaSection></AyudaSection>
                 </>
               }
             />
