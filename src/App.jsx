@@ -1,6 +1,6 @@
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import React, { useEffect } from 'react';
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 import Navbar from './Components/Navbar/navbar';
 import Publicidad from './Components/Navbar/Publicidad/publicidad';
 import Form from './Components/Form/form';
@@ -10,8 +10,7 @@ import ProyectoUniversitario from "./Components/ProyectoUniversitario/universita
 import AyudaSection from "./Components/Ayuda/ayudasection"
 import PreguntasFrecuentes from './Components/Faq/preguntasFrecuentes';
 
-const TRACKING_ID = "G-LCGRZK102S"; // Reemplaza con tu ID de seguimiento
-ReactGA.initialize(TRACKING_ID);
+ReactGA.initialize("G-LCGRZK102S");
 
 
 export const App = () => {

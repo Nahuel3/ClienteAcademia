@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import emailjs from 'emailjs-com';
 import './form.scss';
-import ReactGA from 'react-ga'; // Importar react-ga
+import ReactGA from "react-ga4";
 
 const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
 const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
