@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import emailjs from 'emailjs-com';
 import './form.scss';
 import ReactGA from 'react-ga'; // Importar react-ga
@@ -26,10 +26,6 @@ const FormularioComponent = () => {
   });
 
   const [showSuccess, setShowSuccess] = useState(false); // Estado para mostrar el mensaje de éxito
-
-  useEffect(() => {
-    ReactGA.initialize('G-LCGRZK102S'); // Reemplaza con tu ID de seguimiento
-  }, []);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
