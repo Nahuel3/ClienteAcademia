@@ -23,10 +23,10 @@ const servicios = () => {
              Elaboramos desde cero o retomamos tu proyecto.
             </p>
 
-             <a href="#" className='textoRedaccion'>Tesis</a>
-             <a href="#" className='textoRedaccion'>Monografía</a>
-             <a href="#" className='textoRedaccion'>Ensayo</a>
-             <a href="#" className='textoRedaccion'>Articulo científico</a>
+             <h5>Tesis</h5>
+             <h5>Monografía</h5>
+             <h5>Ensayo</h5>
+             <h5>Articulo científico</h5>
 
             <div className='logo-rectangle'>
             <a href="#" className='btn'><button>Cotizar</button></a>

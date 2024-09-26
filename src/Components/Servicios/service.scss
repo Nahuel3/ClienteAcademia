@@ -22,7 +22,7 @@
         display: block; /* Asegura que el span ocupe todo el ancho */
         width: 10%; /* Ajusta el ancho según lo que necesites */
         height: 4px; /* El grosor de la línea */
-        background-color: #0094EA; /* Color de la línea */
+        background-color: #060d4f; /* Color de la línea */
         margin: 5px auto; /* Centra la línea y añade espacio arriba y abajo */
       }
   
@@ -37,7 +37,7 @@
   
         .rectangle {
           background-color: #ffffff;
-          border: solid 1px grey;
+          border: solid 3px #dcd2bc;
           color: #000000;
           padding: 20px;
           border-radius: 20px;
@@ -47,7 +47,7 @@
           height: 400px;
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          justify-content: space-around;
           align-items: center;
           
   
@@ -57,14 +57,6 @@
             text-align: center; /* Centra el texto horizontalmente */
           }
 
-          .textoRedaccion{
-            text-decoration: none;
-            color: black;
-            padding: 0px;
-            margin: 0px;
-            font-size: 20px;
-            text-align: center;
-          }
 
           .textoRedaccion:hover {
             color: blue;
@@ -79,6 +71,15 @@
             flex-grow: 1; /* Permite que el párrafo ocupe el espacio disponible */
           }
 
+          h5{
+            font-size: 20px;
+            max-width: 400px;
+          text-align: left; /* Alinea el texto a la izquierda */
+          
+        
+          
+          }
+
          
   
           .btn button{
@@ -86,11 +87,11 @@
             color: white;
             padding: 9px ;
             width: 250px;
-            background-color:#0094ea;
+            background-color:#060d4f;
             border: none;
             border-radius: 10px;
             cursor: pointer;
-            margin-top: 50px;
+            margin-top: 80px;
         }
   
         }
