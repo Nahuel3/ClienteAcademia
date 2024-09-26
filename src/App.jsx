@@ -1,6 +1,5 @@
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
-import React, { useEffect } from 'react';
-import ReactGA from "react-ga4";
+import React  from 'react';
 import Navbar from './Components/Navbar/navbar';
 import Publicidad from './Components/Navbar/Publicidad/publicidad';
 import Form from './Components/Form/form';
@@ -10,14 +9,9 @@ import ProyectoUniversitario from "./Components/ProyectoUniversitario/universita
 import AyudaSection from "./Components/Ayuda/ayudasection"
 import PreguntasFrecuentes from './Components/Faq/preguntasFrecuentes';
 
-ReactGA.initialize("G-LCGRZK102S");
-
 
 export const App = () => {
-  useEffect(() => {
-    // Registra una visita a la página al cargar la aplicación
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
+
   
   return (
       <div>

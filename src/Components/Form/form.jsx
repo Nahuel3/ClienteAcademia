@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import emailjs from 'emailjs-com';
 import './form.scss';
-import ReactGA from "react-ga4";
+
 
 const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
 const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
@@ -123,12 +123,6 @@ const FormularioComponent = () => {
         });
 
         setShowSuccess(true);
-        // Registrar el evento de envío en Google Analytics
-        ReactGA.event({
-          category: 'Form',
-          action: 'Submitted Contact Form',
-          label: 'Contact Form',
-        });
 
       })
       .catch((error) => {
