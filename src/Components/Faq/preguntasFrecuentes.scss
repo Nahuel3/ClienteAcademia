@@ -1,0 +1,148 @@
+.preguntas-frecuentes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .titulo-principal {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .preguntas-respuestas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    
+  }
+
+  .preguntas-respuestasPrevia{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    flex-direction: row-reverse;
+  }
+  
+  .imagen-container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .imagen-fondo {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+  
+  }
+
+   //Preguntas sobre el proceso de entrega de mi proyecto (PARTE2) (IMAGEN FONDO)
+
+  .imagen-fondoReverse{
+    transform: scaleX(-1);
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 50px;
+  }
+
+  //Preguntas sobre el proceso de entrega de mi proyecto (PARTE2)
+
+  .titulo-principalReverse {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  .preguntas-desplegables {
+    width: 50%;
+  }
+  
+  .pregunta-container {
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 2px solid #dcd2bc;
+  }
+  
+  .pregunta {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .respuesta {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-left: 15px;
+  }
+  
+  .respuesta.activa {
+    max-height: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: none;
+  }
+  
+  .preguntas-invertidas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .preguntas-column {
+    width: 50%;
+    padding-right: 20px;
+  }
+  
+  .respuestas-column {
+    width: 50%;
+    padding-left: 20px;
+  }
+  
+  .pregunta-invertida {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .respuesta-invertida {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+
+  /* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .preguntas-respuestas, .preguntas-respuestasPrevia {
+      flex-direction: column;
+    }
+  
+    .imagen-container,
+    .preguntas-desplegables {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .preguntas-invertidas {
+      flex-direction: column;
+    }
+  
+    .preguntas-column,
+    .respuestas-column {
+      width: 100%;
+      padding: 0;
+    }
+  }

@@ -32,7 +32,7 @@ const Navbar = () => {
         
         <Link to="/faq" 
               className={selectedLink === 'faq' ? 'selected' : ''} 
-              onClick={() => handleLinkClick('faq')}>Preguntas Frecuentes</Link>
+              onClick={() => handleLinkClick('preguntasFrecuentes')}>Preguntas Frecuentes</Link>
 
         <Link to="/servicios" 
               className={selectedLink === 'servicios' ? 'selected' : ''} 
