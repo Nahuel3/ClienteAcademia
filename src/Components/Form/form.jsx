@@ -1,12 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import './form.scss';
+import ReactGA from 'react-ga'; // Importar react-ga
 
 const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
 const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
 const Apikey = process.env.REACT_APP_EMAILJS_API_KEY;
 
+
+
 const FormularioComponent = () => {
+
   const [formData, setFormData] = useState({
     nombre: '',
     email: '',
@@ -22,6 +26,10 @@ const FormularioComponent = () => {
   });
 
   const [showSuccess, setShowSuccess] = useState(false); // Estado para mostrar el mensaje de éxito
+
+  useEffect(() => {
+    ReactGA.initialize('G-LCGRZK102S'); // Reemplaza con tu ID de seguimiento
+  }, []);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -99,7 +107,7 @@ const FormularioComponent = () => {
       from_name: formData.email,
       message: formData.mensaje,
       whatsapp: formData.whatsapp,  // Añadir el número de WhatsApp
-      
+
     };
 
     emailjs
@@ -117,7 +125,15 @@ const FormularioComponent = () => {
           whatsapp: '',
           mensaje: '',
         });
+
         setShowSuccess(true);
+        // Registrar el evento de envío en Google Analytics
+        ReactGA.event({
+          category: 'Form',
+          action: 'Submitted Contact Form',
+          label: 'Contact Form',
+        });
+
       })
       .catch((error) => {
         console.error('Error al enviar el correo electrónico:', error);
@@ -171,9 +187,9 @@ const FormularioComponent = () => {
               onBlur={handleInputBlur}
               required
 
-              
+
             />
-            
+
             {errors.email && (
               <small className="error">Debes ingresar un correo electrónico válido.</small>
             )}
