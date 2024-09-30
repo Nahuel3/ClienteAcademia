@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import './service.scss'; // Importa el archivo SASS
 
-const servicios = () => {
+const servicios = forwardRef((props, ref) => {
   return (
-    <div className='why-choose-us'>
+    <div ref={ref} className='why-choose-us'>
         <h2>Nuestros Servicios</h2>
         <span className="underline"></span>
         <div className='main-rectangles'>
@@ -29,7 +29,7 @@ const servicios = () => {
              <h5>Articulo científico</h5>
 
             <div className='logo-rectangle'>
-            <a href="#" className='btn'><button>Cotizar</button></a>
+            <a href="https://wa.me/5491135206645?text=¡Hola! Quisiera hacerte una pregunta." className='btn'><button>Cotizar</button></a>
             </div>
           </div>
 
@@ -39,12 +39,12 @@ const servicios = () => {
             Nuestro equipo se encargará de la corrección y detección del plagio de tu proyecto universitario.
             </p>
             <div className='logo-rectangle'>
-            <a href="#" className='btn'><button>¡Quiero!</button></a>
+            <a href="https://wa.me/5491135206645?text=¡Hola! Quisiera hacerte una pregunta." className='btn'><button>¡Quiero!</button></a>
             </div>
           </div>
         </div>
       </div>
   )
-}
+});
 
 export default servicios

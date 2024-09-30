@@ -34,9 +34,6 @@ const Navbar = () => {
               className={selectedLink === 'faq' ? 'selected' : ''} 
               onClick={() => handleLinkClick('preguntasFrecuentes')}>Preguntas Frecuentes</Link>
 
-        <Link to="/servicios" 
-              className={selectedLink === 'servicios' ? 'selected' : ''} 
-              onClick={() => handleLinkClick('servicios')}>Servicios</Link>
       </nav>
 
       <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
@@ -45,7 +42,7 @@ const Navbar = () => {
         <div className="line"></div>
       </div>
 
-      <a href="#" className='btn'>
+      <a href="https://wa.me/5491135206645?text=¡Hola! Quisiera hacerte una pregunta." className='btn'>
         <button>Contacto</button>
       </a>
     </header>
