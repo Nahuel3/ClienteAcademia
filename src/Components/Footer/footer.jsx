@@ -73,6 +73,7 @@ const Footer = () => {
 
             <div className="footer-bottom">
                 <p>2024 Academica Express</p>
+                <p>Design by GlowNet</p>
             </div>
 
         </footer>
