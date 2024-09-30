@@ -25,8 +25,17 @@
         text-align: center;
         font-size: 25px;
         text-decoration: none;
+        transition: transform 0.5s ease; /* Añadir transición */
     }
 
+    /* Animaciones para el texto */
+    .slide-in {
+        transform: translateX(0);
+    }
+
+    .slide-out {
+        transform: translateX(-100%);
+    }
    
 }
   

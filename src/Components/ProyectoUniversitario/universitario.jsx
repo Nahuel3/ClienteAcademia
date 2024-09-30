@@ -7,6 +7,7 @@ const Universitario = () => {
       <div className="images-container">
       
         <img src="Myimage/servicios.png" alt="Servicios" className='services-image' />
+        
       </div>
     </div>
   );

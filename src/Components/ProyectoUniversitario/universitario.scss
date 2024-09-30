@@ -15,14 +15,11 @@
 
     .services-image {
         width: 100%;
-        height: auto;    object-fit: contain; /* Asegura que la imagen se ajuste sin cortar */
+        height: auto;    
+        object-fit: contain; /* Asegura que la imagen se ajuste sin cortar */
         margin-left: 20px;
     }
 
-    .secondary-image {
-        width: 800px; /* Ajusta el ancho como necesites */
-        margin-bottom: 20px
-    }
 }
 
 /* Estilos para pantallas pequeñas */
@@ -32,8 +29,8 @@
         align-items: center; /* Centra las imágenes en la columna */
     }
 
-    .services-image,
-    .secondary-image {
+    .services-image
+    {
         width: 100%; /* Asegúrate de que ocupen el 100% del ancho */
         margin-bottom: 20px; /* Espacio entre las imágenes */
     }

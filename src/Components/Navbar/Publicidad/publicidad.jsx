@@ -3,6 +3,7 @@ import "./publicidad.scss";
 
 const Publicidad = () => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
+  const [slideClass, setSlideClass] = useState('slide-in');
 
   // Array de textos que deseas alternar
   const textos = [
@@ -14,7 +15,14 @@ const Publicidad = () => {
   useEffect(() => {
     // Establecer un intervalo para cambiar el texto cada 5 segundos
     const interval = setInterval(() => {
-      setCurrentTextIndex((prevIndex) => (prevIndex + 1) % textos.length);
+      // Cambia la clase a 'slide-out' antes de cambiar el texto
+      setSlideClass('slide-out');
+
+      setTimeout(() => {
+        setCurrentTextIndex((prevIndex) => (prevIndex + 1) % textos.length);
+        setSlideClass('slide-in'); // Vuelve a la clase 'slide-in' después de cambiar el texto
+      }, 500); // Tiempo de duración de la animación
+
     }, 5000); // Cambia cada 5000 ms = 5 segundos
 
     // Limpieza del intervalo al desmontar el componente
@@ -23,7 +31,7 @@ const Publicidad = () => {
 
   return (
     <div className='cartelPublicidad'>
-      <a href="https://wa.me/5491135206645?text=¡Hola! Quisiera hacerte una pregunta." target="_blank" rel="noreferrer">
+      <a href="https://wa.me/5491135206645?text=¡Hola! Quisiera hacerte una pregunta." target="_blank" rel="noreferrer" className={slideClass}>
         {textos[currentTextIndex]} {/* Texto rotatorio */}
       </a>
 
