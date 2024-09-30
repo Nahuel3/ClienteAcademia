@@ -149,7 +149,7 @@ const PreguntasFrecuentes = () => {
       <div className="preguntas-respuestas">
         <div className="imagen-container">
           {/* Aquí puedes poner tu imagen de fondo */}
-          <img src="https://tesisymasters.com.ar/wp-content/uploads/faq-1-459x1024.webp" alt="imagen de fondo" className="imagen-fondo" />
+          <img src="Myimage/Pregunta1.png" alt="imagen de fondo" className="imagen-fondo" />
         </div>
         <div className="preguntas-desplegables">
           {preguntas.map((item, index) => (
@@ -171,7 +171,7 @@ const PreguntasFrecuentes = () => {
       <div className="preguntas-respuestasPrevia">
         <div className="imagen-container">
           {/* Aquí puedes poner tu imagen de fondo */}
-          <img src="https://tesisymasters.com.ar/wp-content/uploads/faq-1-459x1024.webp" alt="imagen de fondo" className="imagen-fondoReverse" />
+          <img src="Myimage/Pregunta2.png" alt="imagen de fondo" className="imagen-fondoReverse" />
         </div>
         <div className="preguntas-desplegables">
           {procesoEntrega.map((item, index) => (

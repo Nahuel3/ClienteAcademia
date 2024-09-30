@@ -10,6 +10,7 @@
     text-align: center;
     font-size: 28px;
     margin-bottom: 30px;
+    color:#04082f;
   }
   
   .preguntas-respuestas {
@@ -17,7 +18,8 @@
     justify-content: space-between;
     width: 100%;
     position: relative;
-    
+    color:#04082f;
+    align-items: center;
   }
 
   .preguntas-respuestasPrevia{
@@ -29,25 +31,28 @@
   }
   
   .imagen-container {
-    position: relative;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
     width: 50%;
+
+    .imagen-fondo {
+      max-width: 100%; /* Ajusta el tamaño de la imagen */
+      height: auto; /* Mantener las proporciones de la imagen */  
+      display: block; /* Asegura que la imagen se comporte como un bloque */
+    }
   }
   
-  .imagen-fondo {
-    width: 60%;
-    height: auto;
-    object-fit: cover;
   
-  }
+
 
    //Preguntas sobre el proceso de entrega de mi proyecto (PARTE2) (IMAGEN FONDO)
 
   .imagen-fondoReverse{
-    transform: scaleX(-1);
-    width: 60%;
-    height: auto;
-    object-fit: cover;
-    margin-left: 50px;
+
+    max-width: 100%; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantener las proporciones de la imagen */  
+    display: block; /* Asegura que la imagen se comporte como un bloque */
   }
 
   //Preguntas sobre el proceso de entrega de mi proyecto (PARTE2)
@@ -57,6 +62,7 @@
     font-size: 28px;
     margin-bottom: 30px;
     width: 100%;
+    color:#04082f;
   }
   
   .preguntas-desplegables {
@@ -74,6 +80,7 @@
   .pregunta {
     font-size: 18px;
     font-weight: bold;
+    color:#04082f;
   }
   
   .respuesta {
@@ -82,7 +89,7 @@
     transition: max-height 0.3s ease;
     padding-left: 15px;
     padding-left: 0; 
-    
+    color:#04082f;
   }
   
   .respuesta.activa {
@@ -90,7 +97,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     max-height: none;
-   
+    color:#04082f;
   }
   
   .preguntas-invertidas {

@@ -17,14 +17,14 @@
   
       h1 {
         font-size: 3rem;
-        color: #000000;
+        color:#04082f;
         margin-top: 25px;
         text-align: center;
       }
   
       p {
         font-size: 1.8rem;
-        color: #333;
+        color:#04082f;
         line-height: 1.6;
         margin-top: 10px;
         text-align: center;
@@ -46,8 +46,9 @@
           display: flex;
           align-items: center;
           text-decoration: none;
-          color: inherit; /* Mantener el color por defecto del texto */
+          color:#04082f;
           transition: color 0.3s ease;
+
       
           svg {
             width: 50px; /* Tamaño del ícono */
@@ -59,6 +60,7 @@
           p {
             font-size: 1.4rem;
             margin: 0;
+            color:#04082f;
           }
       
           &:hover {
@@ -82,14 +84,14 @@
   
         h2 {
           font-size: 2.5rem;
-          color: #000000;
+          color:#04082f;
           margin: 0;
           text-align: center;
         }
   
         span {
           font-size: 1rem;
-          color: #333;
+          color:#04082f;
           text-align: center;
         }
       }
