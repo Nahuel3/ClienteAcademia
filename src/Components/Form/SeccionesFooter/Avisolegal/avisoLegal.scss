@@ -1,0 +1,70 @@
+.aviso-legal-container {
+    padding: 20px;
+    color: #04082f;
+    max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+
+    .titulo {
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .ley-texto {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .uso-web, .politica-enlaces {
+        margin-top: 20px;
+    }
+
+    .subtitulo {
+        font-size: 30px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    // Línea abajo del subtítulo
+    .lineaSpan {
+        width: 20%;
+        background-color: #060d4f;
+        height: 3px;
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .texto {
+        text-align: justify;
+        margin-bottom: 20px;
+        line-height: 1.5; /* Mejora la legibilidad del texto */
+    }
+
+
+    //Punto numero 3 (lista)
+    .lista-circulos {
+        list-style-type: disc; /* Usa círculos para los elementos de la lista */
+        padding-left: 20px; /* Espacio a la izquierda para los círculos */
+        margin-top: 10px; /* Espacio superior para separar del texto anterior */
+    
+        li {
+            margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+            text-align: justify; /* Alinea el texto de la lista */
+        }
+    }
+  
+}
+
+   /* Establece la altura fija en pantallas más pequeñas */
+   @media (max-width: 400px) {
+    .aviso-legal-container{
+        
+        .subtitulo{
+            font-size: 25px;
+        }
+        .texto{
+            font-size: 18px;
+        }
+    }
+  }

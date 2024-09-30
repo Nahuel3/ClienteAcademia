@@ -65,6 +65,16 @@
         span {
             margin: 0 10px;
             color: #04082f;
+
+            &.separator {
+                margin: 0 5px; /* Espacio adicional para la línea de separación */
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: #04082f;
+            text-align: center;
         }
     }
 

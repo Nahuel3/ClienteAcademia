@@ -9,6 +9,7 @@ import ProyectoUniversitario from "./Components/ProyectoUniversitario/universita
 import AyudaSection from "./Components/Ayuda/ayudasection"
 import PreguntasFrecuentes from './Components/Faq/preguntasFrecuentes';
 import Footer from "./Components/Footer/footer"
+import AvisoLegal from './Components/Form/SeccionesFooter/Avisolegal/avisoLegal';
 
 
 export const App = () => {
@@ -39,6 +40,8 @@ export const App = () => {
             <Route path='/' element={<Form />}></Route>
 
             <Route path='/faq' element={<PreguntasFrecuentes></PreguntasFrecuentes>}></Route>
+
+            <Route path='/aviso-legal' element={<AvisoLegal></AvisoLegal>}></Route>
             
         </Routes>
        <Footer></Footer>
