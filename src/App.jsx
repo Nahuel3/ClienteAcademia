@@ -10,6 +10,8 @@ import AyudaSection from "./Components/Ayuda/ayudasection"
 import PreguntasFrecuentes from './Components/Faq/preguntasFrecuentes';
 import Footer from "./Components/Footer/footer"
 import AvisoLegal from './Components/Form/SeccionesFooter/Avisolegal/avisoLegal';
+import PoliticaPrivacidad from './Components/Form/SeccionesFooter/PoliticaPrivacidad/privacidad';
+import CondicionesGenerales from './Components/Form/SeccionesFooter/CondicionesGenerales/condiciones';
 
 
 export const App = () => {
@@ -42,6 +44,10 @@ export const App = () => {
             <Route path='/faq' element={<PreguntasFrecuentes></PreguntasFrecuentes>}></Route>
 
             <Route path='/aviso-legal' element={<AvisoLegal></AvisoLegal>}></Route>
+
+            <Route path='/politica-privacidad' element={<PoliticaPrivacidad></PoliticaPrivacidad>}></Route>
+
+            <Route path='/condiciones-venta' element={<CondicionesGenerales></CondicionesGenerales>}></Route>
             
         </Routes>
        <Footer></Footer>
