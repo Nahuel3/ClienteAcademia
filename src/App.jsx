@@ -8,6 +8,7 @@ import Nosotros from "./Components/Sobre nosotros/nosotros"
 import ProyectoUniversitario from "./Components/ProyectoUniversitario/universitario"
 import AyudaSection from "./Components/Ayuda/ayudasection"
 import PreguntasFrecuentes from './Components/Faq/preguntasFrecuentes';
+import Footer from "./Components/Footer/footer"
 
 
 export const App = () => {
@@ -18,6 +19,7 @@ export const App = () => {
        <BrowserRouter>
        <Navbar></Navbar> 
        <Publicidad />
+      
         <Routes>
 
         <Route 
@@ -39,8 +41,8 @@ export const App = () => {
             <Route path='/faq' element={<PreguntasFrecuentes></PreguntasFrecuentes>}></Route>
             
         </Routes>
+       <Footer></Footer>
        </BrowserRouter>
-
       </div> 
   )
 }
