@@ -65,6 +65,9 @@ const AyudaSection = () => {
           <span>Proyectos realizados</span>
         </div>
       </div>
+ 
+      <img src="Myimage/contacto.png" alt="imagen de fondo" className="imagen-contacto" />
+
     </section>
   );
 };
