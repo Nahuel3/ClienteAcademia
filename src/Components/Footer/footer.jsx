@@ -11,7 +11,7 @@ const Footer = () => {
                     <img src="Myimage/logo2.png" alt="Logo" className="footer-logo" />
                 </div>
                 <div className="social-icons">
-                    <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+                    <a href="https://www.facebook.com/academica.expres/" target="_blank" rel="noreferrer">
                         <div className="icon-container">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
                                 <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse">
@@ -23,7 +23,7 @@ const Footer = () => {
                             </svg>
                         </div>
                     </a>
-                    <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/academicaexpress/" target="_blank" rel="noreferrer">
                         <div className="icon-container">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
                                 <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
@@ -42,20 +42,7 @@ const Footer = () => {
                             </svg>
                         </div>
                     </a>
-                    <a href="https://www.twitter.com" target="_blank" rel="noreferrer">
-                        <div className="icon-container">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
-                                <path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"></path>
-                            </svg>
-                        </div>
-                    </a>
-                    <a href="https://www.tiktok.com" target="_blank" rel="noreferrer">
-                        <div className="icon-container">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
-                                <path d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z"></path>
-                            </svg>
-                        </div>
-                    </a>
+           
                 </div>
             </div>
             <div className="footer-links">
