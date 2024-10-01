@@ -149,7 +149,7 @@ const PreguntasFrecuentes = () => {
       <div className="preguntas-respuestas">
         <div className="imagen-container">
           {/* Aquí puedes poner tu imagen de fondo */}
-          <img src="Myimage/Pregunta1.png" alt="imagen de fondo" className="imagen-fondo" />
+          <img src="Myimage/Pregunta.png" alt="imagen de fondo" className="imagen-fondo" />
         </div>
         <div className="preguntas-desplegables">
           {preguntas.map((item, index) => (
