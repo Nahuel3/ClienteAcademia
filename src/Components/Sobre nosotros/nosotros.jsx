@@ -39,6 +39,8 @@ const nosotros = () => {
                 </div>
 
             </div>
+                <img src="Myimage/contacto.png" alt="imagen de fondo" className="imagen-contacto" />
+                
         </div>
     )
 }
