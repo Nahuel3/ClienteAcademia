@@ -8,7 +8,7 @@ const Publicidad = () => {
   // Array de textos que deseas alternar
   const textos = [
     "Contáctanos",
-    "100% de Originalidad en la redacción e informe antiplagio incluido",
+    "100% de Originalidad en la redacción e informe",
     "Financia tu proyecto en hasta 12 Cuotas Fijas tarjetas"
   ];
 
