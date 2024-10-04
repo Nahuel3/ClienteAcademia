@@ -13,7 +13,7 @@ const servicios = forwardRef((props, ref) => {
             Expertos en cada materia te ayudarán a organizar tus ideas y a presentar una investigación adaptada a lo que necesites.
             </p>
             <div className='logo-rectangle'>
-              <a href="https://wa.me/5491135206645?text=¡Hola! Quisiera hacerte una pregunta." className='btn'><button>Más información</button></a>
+              <a href="https://wa.me/message/AEA5PBEGH4SHD1" className='btn'><button>Más información</button></a>
             </div>
           </div>
 
@@ -29,7 +29,7 @@ const servicios = forwardRef((props, ref) => {
              <h5>Articulo científico</h5>
 
             <div className='logo-rectangle'>
-            <a href="https://wa.me/5491135206645?text=¡Hola! Quisiera hacerte una pregunta." className='btn'><button>Cotizar</button></a>
+            <a href="https://wa.me/message/AEA5PBEGH4SHD1" className='btn'><button>Cotizar</button></a>
             </div>
           </div>
 
@@ -39,7 +39,7 @@ const servicios = forwardRef((props, ref) => {
             Nuestro equipo se encargará de la corrección y detección del plagio de tu proyecto universitario.
             </p>
             <div className='logo-rectangle'>
-            <a href="https://wa.me/5491135206645?text=¡Hola! Quisiera hacerte una pregunta." className='btn'><button>¡Quiero!</button></a>
+            <a href="https://wa.me/message/AEA5PBEGH4SHD1" className='btn'><button>¡Quiero!</button></a>
             </div>
           </div>
         </div>

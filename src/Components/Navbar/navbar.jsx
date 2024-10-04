@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="line"></div>
       </div>
 
-      <a href="https://wa.me/5491135206645?text=¡Hola! Quisiera hacerte una pregunta." className='btn'>
+      <a href="https://wa.me/message/AEA5PBEGH4SHD1" className='btn'>
         <button>Contacto</button>
       </a>
     </header>

@@ -154,7 +154,7 @@ const CondicionesGenerales = () => {
 
                 <div style={{ marginBottom: '30px' }}>
                     <p className="texto">
-                        Se concede el derecho a la devolución y anulación en un período de 2 días a contar desde la fecha de contratación del servicio, descontando en su caso los gastos de gestión y activación del mismo. Todos los trabajos desarrollados por Tesis Y Másters son originales, hechos a medida, destinados a un único usuario. Ninguno de nuestros proyectos pueden ser revendidos, por lo que el derecho a devolución, pasados los 2 días desde la contratación, estará condicionado al presupuesto aceptado y al grado de avance llevado a cabo. En cualquier caso, todo cliente de Tesis y Másters tiene derecho a solicitar una corrección sobre el contenido entregado por la empresa si no se cumplen las pautas indicadas por el cliente antes del inicio del servicio.
+                        Se concede el derecho a la devolución y anulación en un período de 2 días a contar desde la fecha de contratación del servicio, descontando en su caso los gastos de gestión y activación del mismo. Todos los trabajos desarrollados son originales, hechos a medida, destinados a un único usuario. Ninguno de nuestros proyectos pueden ser revendidos, por lo que el derecho a devolución, pasados los 2 días desde la contratación, estará condicionado al presupuesto aceptado y al grado de avance llevado a cabo. En cualquier caso, todo cliente tiene derecho a solicitar una corrección sobre el contenido entregado por la empresa si no se cumplen las pautas indicadas por el cliente antes del inicio del servicio.
                     </p>
                 </div>
 

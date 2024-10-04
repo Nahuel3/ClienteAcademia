@@ -81,7 +81,7 @@ const Privacidad = () => {
                 <h2 className="subtitulo">¿QUÉ DERECHOS PUEDES EJERCER?</h2>
                 <span className='lineaSpan'></span>
                 <p className="texto">
-                El interesado podrá ejercitar sus derechos sobre protección de datos (acceso, rectificación, oposición, supresión, decisiones automatizadas, limitación del tratamiento, portabilidad) por correo electrónico en info@tesisymasters.com.ar. Deberá aportarse documentación que acredite la identidad del solicitante (copia del anverso del Documento Nacional de Identidad, o equivalente). El plazo de respuesta máximo será de 30 días desde su recepción, pudiendo prorrogarse como máximo por un plazo de 2 meses siempre que sea necesario.
+                El interesado podrá ejercitar sus derechos sobre protección de datos (acceso, rectificación, oposición, supresión, decisiones automatizadas, limitación del tratamiento, portabilidad) por correo electrónico en info@academicaexpress.info Deberá aportarse documentación que acredite la identidad del solicitante (copia del anverso del Documento Nacional de Identidad, o equivalente). El plazo de respuesta máximo será de 30 días desde su recepción, pudiendo prorrogarse como máximo por un plazo de 2 meses siempre que sea necesario.
                 </p>
             </div>
 
