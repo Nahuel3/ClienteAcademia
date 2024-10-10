@@ -20,6 +20,14 @@
         margin-left: 20px;
     }
 
+    .services-image-responsive {
+        width: 100%;
+        height: auto;    
+        object-fit: contain; /* Asegura que la imagen se ajuste sin cortar */
+        margin-left: 20px;
+        display: none;
+    }
+
 }
 
 /* Estilos para pantallas pequeñas */
@@ -27,13 +35,21 @@
     .images-container {
         flex-direction: column; /* Cambia a columna en pantallas pequeñas */
         align-items: center; /* Centra las imágenes en la columna */
-    }
 
+        
     .services-image
     {
         width: 100%; /* Asegúrate de que ocupen el 100% del ancho */
         margin-bottom: 20px; /* Espacio entre las imágenes */
+        display: none;
     }
+    
+
+        .services-image-responsive{
+            display: block;
+        }
+    }
+
 }
 
 /* Estilos para pantallas pequeñas */
@@ -41,6 +57,7 @@
     .images-container {
         flex-direction: column; /* Cambia a columna en pantallas pequeñas */
         align-items: center; /* Centra las imágenes en la columna */
+
     }
 
     .services-image,
